@@ -37,6 +37,6 @@ $ gx installGbox.sh granatumx/gbox-scanpygenefiltering:1.0.0  # Install this gbo
 
 ### Notes
 
-The gbox has a set of parameters passed into it on the frontend. These are defined in the `yamls/*.yaml` file.
-This tool uses mainly python functions for the granatum_sdk to set up the gbox.
+This gbox uses scanpy to remove genes that are expressed too lowly (count-based filtering), 
+and extract genes that are highly varied across cells (dispersion-based filtering).
 
