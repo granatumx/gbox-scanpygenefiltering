@@ -1,4 +1,4 @@
-> `gbox-py` is a gbox that provides a number of gboxes from Python. It is part of the standard gbox set.
+> `gbox-scanpygenefiltering` is a gbox that provides scanpy-based filtering from Python.
 
 
 
@@ -29,8 +29,8 @@ pulled if they do not exist locally on the system. Convenience scripts are provi
 
 
 ```
-$ gx run.sh                                  # Will start the database, taskrunner, and webapp
-$ gx installGbox.sh granatumx/gbox-py:1.0.0  # Install this gbox
+$ gx run.sh                                                   # Will start the database, taskrunner, and webapp
+$ gx installGbox.sh granatumx/gbox-scanpygenefiltering:1.0.0  # Install this gbox
 
 # Now go to http://localhost:34567 and see this gbox installed when you add a step.
 ```
