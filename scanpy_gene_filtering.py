@@ -2,6 +2,7 @@ import math
 
 import scanpy.api as sc
 import numpy as np
+import pandas as pd
 from granatum_sdk import Granatum
 
 
