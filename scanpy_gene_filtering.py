@@ -44,7 +44,7 @@ def main():
     )
 
     gn.export(gn.assay_from_ann_data(adata), "Filtered Assay", dynamic=False)
-    gn.export(filter_result.gene_subset.to_csv(), "Filtered Gene List.csv", kind='raw', meta=None, raw=True)
+    gn.export(pd.DataFrame(index=adata.var_names).to_csv(), "Filtered Gene List.csv", kind='raw', meta=None, raw=True)
 
     gn.commit()
 
